@@ -9,4 +9,6 @@ sealed class Screen(val route: String) {
     data object SetPassScreenRoute: Screen(route = "SetPass")
     data object AuthenticationRoute: Screen(route =  "Auth")
     data object AppRoute: Screen(route =  "App")
+
+    data object NavRoute: Screen(route = "Nav")
 }

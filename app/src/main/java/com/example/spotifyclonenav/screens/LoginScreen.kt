@@ -37,7 +37,7 @@ fun LoginPage(navController: NavController){
             horizontalAlignment = Alignment.CenterHorizontally
         ){
             Button(onClick = {
-                navController.navigate(Screen.HomeScreenRoute.route)
+                navController.navigate(Screen.NavRoute.route)
             }) {
                 Text(text = "Login")
             }
