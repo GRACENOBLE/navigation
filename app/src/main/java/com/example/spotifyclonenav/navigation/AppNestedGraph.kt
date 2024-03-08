@@ -13,11 +13,5 @@ fun NavGraphBuilder.app(navController: NavController){
         composable(route = Screen.NavRoute.route){
             BottomNavBar(navController = navController)
         }
-//        composable(route = Screen.AScreenRoute.route){
-//            AScreen(navController = navController)
-//        }
-//        composable(route = Screen.BScreenRoute.route){
-//            BScreen(navController = navController)
-//        }
     }
 }

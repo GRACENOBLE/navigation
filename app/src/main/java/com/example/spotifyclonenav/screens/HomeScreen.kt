@@ -37,7 +37,7 @@ fun HomeScreenPage(navController: NavController){
             horizontalAlignment = Alignment.CenterHorizontally
         ){
             Button(onClick = {
-                navController.navigate(route = Screen.AScreenRoute.route)
+                navController.navigate("ScreenA")
             }) {
                 Text(text = "Go to A")
             }
@@ -46,7 +46,7 @@ fun HomeScreenPage(navController: NavController){
                     .height(30.dp)
             )
             Button(onClick = {
-                navController.navigate(route = Screen.BScreenRoute.route)
+                navController.navigate("ScreenB")
             }) {
                 Text(text = "Go to B")
             }
